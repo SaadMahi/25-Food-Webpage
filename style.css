@@ -572,10 +572,40 @@ textarea {
   .form.area textarea {
     width: 100%;
   }
+
+  /* Types of food */
+
+  .food-container {
+    flex-direction: column;
+  }
+
+  .merge {
+    position: unset;
+
+    transform: translateY(0%);
+    opacity: 1;
+
+    color: #000;
+   
+
+    padding: 1em;
+
+    background-color: rgba(218, 218, 218, 0.5)
+  }
+
+  .food::after{
+    all: unset;
+  }
+
+
+
+
 }
 
+/* types of food 
+
 @media (max-width: 625px) {
-  /* types of food */
+  
 
   .food-container {
     flex-direction: column;
@@ -596,3 +626,4 @@ textarea {
     transform: translateY(-50%);
   }
 }
+*    Animation disabled as we aren't able to hover images over mobile phone's/  
