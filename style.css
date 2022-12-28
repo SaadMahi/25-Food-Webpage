@@ -218,6 +218,8 @@ body {
 .merge {
   text-align: center;
 
+  width: 100%;
+
   position: absolute;
   top: 25%;
 
@@ -573,6 +575,8 @@ textarea {
 }
 
 @media (max-width: 625px) {
+  /* types of food */
+
   .food-container {
     flex-direction: column;
   }
@@ -584,6 +588,11 @@ textarea {
     left: 0;
     bottom: 0;
 
-    padding: 1em;
+    transform: translateY(0%);
+    opacity: 0;
+  }
+
+  .food:hover .merge {
+    transform: translateY(-50%);
   }
 }
