@@ -402,6 +402,11 @@ h2::after {
   padding: 5em;
 }
 
+.contact-us-form h3{
+  font-family: latto ;
+  padding: 1em;
+}
+
 .contact-us.container {
   box-shadow: 0px 5px 5px 0px;
 }
@@ -411,10 +416,29 @@ h2::after {
   font-size: 2rem;
 }
 
+.office{
+  width: 100%;
+  position: relative;
+}
+
+.office::after{
+  content: '';
+
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  background: rgba(25, 25, 25, 0.50); 
+}
+
 .office img {
+  display: block;
+
   width: 100%;
   height: 100%;
-  display: block;
+  
+  object-fit: cover;
 }
 
 .contact-us {
@@ -422,18 +446,70 @@ h2::after {
   justify-content: center;
 }
 
+.form.area p{
+
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+
 .contact-us-form {
   background-color: #fff;
   width: 100%;
   padding: 1em;
+
+  
 }
 
 .area {
-  padding: 0.5em;
+  padding: 1em;
+  margin: 1em 0.85em;
+  
 }
+
 
 textarea {
   resize: none;
+  
+
+  margin-bottom: 2px solid #ddd;
+}
+
+.area input{
+  border: none;
+  border-bottom: 2px solid #ddd;
+
+  display: block;
+  width: 100%;
+
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+
+  outline: none;
+}
+
+.form.area textarea {
+  width: 100%;
+  outline: none;
+
+  border: none;
+  border-bottom: #ddd solid 2px;
+}
+
+.submit.area input[type=submit]{
+  border-radius: 1em;
+  border: #fff;
+  background-color: #16a083;
+  color: #fff;
+
+  padding: 1em;
+
+  width: 50%;
+  
+  cursor: pointer;
+}
+
+.submit.area input[type=submit]:hover{
+  background: #117964;
 }
 
 /* footer */
@@ -624,26 +700,15 @@ textarea {
     padding: 0.50em;
   }
   
-
   .contact-us {
     flex-direction: column;
   }
 
-  .form.area textarea {
-    width: 100%;
-  }
-
   .submit.area input[type=submit]{
-    border-radius: 1em;
-    border: #fff;
-    background-color: #16a083;
-
-    padding: 1em;
-    
-    cursor: pointer;
+    display: block;
+    margin: 0 auto;
   }
  
-
   /* Types of food */
 
   .food-container {
