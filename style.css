@@ -557,14 +557,23 @@ textarea {
 
   .customer {
     flex-direction: column;
+    
   }
 
+  
   .cust-detail img {
     position: relative;
     right: 0.65em;
   }
 
   /* contact us */
+
+  #contact-us {
+    background-color: rgba(218, 218, 218, 0.5);
+    padding: 0.50em;
+  }
+  
+
   .contact-us {
     flex-direction: column;
   }
