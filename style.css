@@ -402,6 +402,8 @@ h2::after {
   padding: 5em;
 }
 
+
+
 .contact-us-form h3{
   font-family: latto ;
   padding: 1em;
@@ -514,17 +516,47 @@ textarea {
 
 /* footer */
 
-.footer {
-  text-align: center;
-  color: #fff;
+.footer-container {
   padding: 1.5em;
   background: rgba(25, 25, 25, 0.85);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.footer h2 {
+.copy-right h3 {
   font-weight: 500;
   letter-spacing: 0.05rem;
 }
+
+.fa-brands.fa-twitter:hover{
+  color: #00acee;
+}
+
+.fa-brands.fa-linkedin:hover{
+  color: #0077b5;
+}
+
+.fa-brands.fa-instagram:hover{
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  border-radius: 5px;
+}
+
+.social ul{
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  
+  font-size: 2em;
+}
+
+.social li{
+    list-style: none;
+    cursor: pointer;
+}
+
+
 
 /*********** Media Queries ***********/
 
