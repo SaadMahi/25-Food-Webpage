@@ -776,6 +776,7 @@ textarea {
 
   .footer-container {
     flex-direction: column;
+    margin-top: 2em;
   }
 
 
