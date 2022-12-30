@@ -723,13 +723,20 @@ textarea {
 
   /* Food Menu */
 
-  .menu-wrapper {
+  .menu-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  
+
+  /* .menu-wrapper {
     flex-direction: column;
   }
 
   .about-food {
     margin: 0;
-  }
+  } */
 
   /* Customer Review */
 
@@ -819,3 +826,13 @@ textarea {
   }
 }
 *    Animation disabled as we aren't able to hover images over mobile phone's/  
+*/
+
+@media (max-width:500px) {
+  .menu-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  
+}
