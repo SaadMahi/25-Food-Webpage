@@ -339,7 +339,6 @@ h2::after {
 
 .about-food {
   padding: 1em;
-  
 }
 
 .food-menu {
@@ -559,16 +558,13 @@ textarea {
 
 /*********** Media Queries ***********/
 
-@media (max-width: 1084px){
-
-.food-menu{
-  flex-wrap: wrap;
-}
-.about-food {
-  flex-shrink: 1;
-  
-}
-
+@media (max-width: 1084px) {
+  .food-menu {
+    flex-wrap: wrap;
+  }
+  .about-food {
+    flex-shrink: 1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -719,10 +715,9 @@ textarea {
 
   /* Food Menu */
 
-.food-menu{
-  
-  margin-left: 10px;
-}
+  .food-menu {
+    margin-left: 10px;
+  }
 
   .about-food {
     margin: 0;
@@ -813,8 +808,9 @@ textarea {
 *    Animation disabled as we aren't able to hover images over mobile phone's/  
 */
 
- @media (max-width: 460px) {
-  .food-menu.m2{
-    
+@media (max-width: 470px) {
+  .food-menu {
+    text-align: center;
+    justify-content: center;
   }
-} 
+}
