@@ -388,6 +388,10 @@ h2::after {
   max-width: 80%;
 }
 
+.cust-detail p {
+  margin-left: 7px;
+}
+
 .fa-solid {
   color: orange;
 }
@@ -732,6 +736,10 @@ textarea {
   .cust-detail img {
     position: relative;
     right: 0.65em;
+  }
+
+  .cust-detail p {
+    margin-left: unset;
   }
 
   /* contact us */
